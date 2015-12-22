@@ -62,18 +62,18 @@
 
     </LinearLayout>
 
-    <LinearLayout android:id="@+id/emotion3" android:layout_width="wrap_content"
+    <LinearLayout android:id="@+id/emotion4" android:layout_width="wrap_content"
         android:layout_height="wrap_content" android:orientation="horizontal"
         android:paddingTop="50dp">
 
-        <Button android:id="@+id/bad" android:layout_width="wrap_content"
+        <Button android:id="@+id/bad1" android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:text="BAD" />
 
-        <Button android:id="@+id/terrible" android:layout_width="wrap_content"
+        <Button android:id="@+id/terrible1" android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_marginLeft="30dp"
             android:text="TERRBILE" />
 
-        <Button android:id="@+id/fuck" android:layout_width="wrap_content"
+        <Button android:id="@+id/fuck1" android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_marginLeft="30dp"
             android:text="FUCK" />
 
