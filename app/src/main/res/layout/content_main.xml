@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kohkoh135.emotionproj.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout android:id="@+id/emotion1" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:paddingTop="110dp">
+
+        <Button android:id="@+id/happy" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="HAPPY" />
+
+        <Button android:id="@+id/good" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="GOOD" />
+
+        <Button android:id="@+id/well" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="WELL" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/emotion2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <Button android:id="@+id/notbad" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="NOT BAD" />
+
+        <Button android:id="@+id/surprised" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="Surprise" />
+
+        <Button android:id="@+id/soso" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="SO SO.." />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/emotion3" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <Button android:id="@+id/bad" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="BAD" />
+
+        <Button android:id="@+id/terrible" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="TERRBILE" />
+
+        <Button android:id="@+id/fuck" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="FUCK" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/emotion3" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <Button android:id="@+id/bad" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="BAD" />
+
+        <Button android:id="@+id/terrible" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="TERRBILE" />
+
+        <Button android:id="@+id/fuck" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:text="FUCK" />
+
+    </LinearLayout>
+
+</LinearLayout>
